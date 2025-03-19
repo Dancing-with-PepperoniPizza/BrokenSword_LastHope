@@ -1,9 +1,0 @@
-version: "3.9"
-services:
-  weapongame:
-    build: .
-    container_name: weapongame
-    volumes:
-      - .:/app  # 현재 디렉토리를 컨테이너 내부 `/app`에 마운트
-    stdin_open: true
-    tty: true
